@@ -1,0 +1,24 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <!-- warm brown and cream brand palette -->
+    <color name="green_50">#F2E2CD</color>
+    <color name="green_100">#E9D1B6</color>
+    <color name="green_300">#B98A66</color>
+    <color name="green_700">#704025</color>
+    <color name="green_primary">#704025</color>
+    <color name="green_container">#E9D1B6</color>
+    <color name="green_on_container">#432716</color>
+    <color name="surface_bg">#FBF6EF</color>
+    <color name="text_secondary">#806B5B</color>
+    <color name="danger">#B3261E</color>
+    <!-- pantry expiry states -->
+    <color name="expiry_ok">#704025</color>
+    <color name="expiry_soon">#B96C28</color>
+    <color name="expiry_expired">#B71C1C</color>
+    <color name="almost_bg">#F8E9D8</color>
+    <!-- pantry illustrations -->
+    <color name="illustration_shelf">#8D6E63</color>
+    <color name="illustration_lid">#B98A66</color>
+    <color name="illustration_jar">#D9B99A</color>
+    <color name="illustration_accent">#DDA45F</color>
+</resources>

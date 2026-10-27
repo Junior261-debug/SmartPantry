@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material 3 theme in a fresh green; light only so every screen looks the same in screenshots. -->
+    <style name="Theme.SmartPantry" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/green_container</item>
+        <item name="colorOnPrimaryContainer">@color/green_on_container</item>
+        <item name="colorSecondaryContainer">@color/green_container</item>
+        <item name="colorOnSecondaryContainer">@color/green_on_container</item>
+        <item name="android:colorBackground">@color/surface_bg</item>
+        <item name="android:statusBarColor">@color/green_50</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.SmartPantry.Splash" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">#F2E2CD</item>
+        <item name="android:statusBarColor">#F2E2CD</item>
+        <item name="android:navigationBarColor">#F2E2CD</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Section heading used above lists ("Ingredients", "Ready to cook"...) -->
+    <style name="TextAppearance.SmartPantry.Section" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/green_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
