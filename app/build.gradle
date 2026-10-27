@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.smartpantry'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.smartpantry"
+        minSdk 24
+        targetSdk 34
+        versionCode 2
+        versionName "2.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.work:work-runtime:2.9.0'      // daily expiry reminders
+
+    // Pure-Java unit tests (matcher, cook planner, filters): run with ./gradlew test
+    testImplementation 'junit:junit:4.13.2'
+}
