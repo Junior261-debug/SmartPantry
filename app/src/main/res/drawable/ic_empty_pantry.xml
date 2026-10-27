@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty-state illustration: an empty pantry shelf with three jars and a falling leaf. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp" android:height="160dp" android:viewportWidth="200" android:viewportHeight="160">
+    <!-- soft background blob -->
+    <path android:fillColor="@color/green_100" android:pathData="M100,80m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0" />
+    <!-- shelf board + brackets -->
+    <path android:fillColor="@color/illustration_shelf" android:pathData="M28,112h144v8H28z" />
+    <path android:fillColor="#6D4C41" android:pathData="M40,120h8v14h-8z M152,120h8v14h-8z" />
+    <!-- jar 1 -->
+    <path android:fillColor="@color/illustration_lid" android:pathData="M44,56h28v8H44z" />
+    <path android:fillColor="@color/illustration_jar" android:pathData="M42,64h32v42c0,3.3 -2.7,6 -6,6H48c-3.3,0 -6,-2.7 -6,-6z" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.55" android:pathData="M48,70h5v34h-5z" />
+    <!-- jar 2 (tall) -->
+    <path android:fillColor="@color/illustration_lid" android:pathData="M86,38h28v8H86z" />
+    <path android:fillColor="@color/illustration_jar" android:pathData="M84,46h32v60c0,3.3 -2.7,6 -6,6H90c-3.3,0 -6,-2.7 -6,-6z" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.55" android:pathData="M90,52h5v52h-5z" />
+    <path android:fillColor="@color/illustration_accent" android:pathData="M92,76h16v12H92z" />
+    <!-- jar 3 -->
+    <path android:fillColor="@color/illustration_lid" android:pathData="M128,66h28v8h-28z" />
+    <path android:fillColor="@color/illustration_jar" android:pathData="M126,74h32v32c0,3.3 -2.7,6 -6,6h-20c-3.3,0 -6,-2.7 -6,-6z" />
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.55" android:pathData="M132,80h5v24h-5z" />
+    <!-- leaf -->
+    <path android:fillColor="@color/green_700" android:pathData="M164,24c-14,2 -22,10 -22,22c12,0 22,-8 22,-22z" />
+    <path android:strokeColor="#FFFFFF" android:strokeWidth="1.5" android:pathData="M164,24L148,42" />
+</vector>

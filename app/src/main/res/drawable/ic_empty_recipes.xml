@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty-state illustration: a cooking pot with steam, for "no matching recipes". -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp" android:height="160dp" android:viewportWidth="200" android:viewportHeight="160">
+    <path android:fillColor="@color/green_100" android:pathData="M100,80m-72,0a72,72 0,1 1,144 0a72,72 0,1 1,-144 0" />
+    <!-- steam -->
+    <path android:strokeColor="@color/green_300" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M80,58c-6,-8 6,-12 0,-22" />
+    <path android:strokeColor="@color/green_300" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M100,54c-6,-8 6,-12 0,-22" />
+    <path android:strokeColor="@color/green_300" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M120,58c-6,-8 6,-12 0,-22" />
+    <!-- lid + pot -->
+    <path android:fillColor="@color/illustration_lid" android:pathData="M64,70h72v8H64z" />
+    <path android:fillColor="@color/illustration_jar" android:pathData="M68,78h64v34c0,6 -5,10 -10,10H78c-5,0 -10,-4 -10,-10z" />
+    <!-- handles -->
+    <path android:fillColor="@color/illustration_lid" android:pathData="M52,86h16v6H52z M132,86h16v6h-16z" />
+    <!-- accent stripe -->
+    <path android:fillColor="@color/illustration_accent" android:pathData="M68,96h64v6H68z" />
+    <!-- board -->
+    <path android:fillColor="@color/illustration_shelf" android:pathData="M44,128h112v6H44z" />
+</vector>
